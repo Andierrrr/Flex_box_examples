@@ -1,0 +1,36 @@
+<style>
+    .flex-container {
+        display: flex;
+        justify-content: space-between; 
+        gap: 20px; 
+    }
+
+    .flex-container ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 30%; 
+    }
+
+    .flex-container li {
+        background-color: black;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        border: 2px solid black;
+        margin-bottom: 10px; 
+        flex: 1; 
+    }
+</style>
+
+<div class="flex-container">
+    <ul>
+        <li>I am small</li>
+    </ul>
+    <ul>
+        <li>I have more content than the very small item.</li>
+    </ul>
+    <ul>
+        <li>I have lots of content. So much content that I don't know where it is all going to go. I'm glad that CSS is pretty good at dealing with situations where we end up with more words than expected!</li>
+    </ul>
+</div>
